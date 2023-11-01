@@ -1,0 +1,16 @@
+make sure to add the following to package.json: yarn add react-native-reanimated and
+yarn add react-native-gesture-handler.
+
+Then do the following steps
+
+1-import "react-native-gesture-handler";
+to App.tsx
+2- npx expo start -c
+
+
+
+Some dependencies are incompatible with the installed expo version:
+  react-native-gesture-handler@2.13.4 - expected version: ~2.12.0
+  react-native-reanimated@3.5.4 - expected version: ~3.3.0
+Your project may not work correctly until you install the correct versions of the packages.
+Fix with: npx expo install --fix
